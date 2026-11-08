@@ -1,11 +1,11 @@
 {
-  "version": "20261231",
-  "notes": "E2E 更新链路测试",
-  "zip": "https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v20261231-test/NewsDubbingStudio-20261231-test.zip",
+  "version": "20261109",
+  "notes": "内置应用内一键更新和一键下载所有模型；安装包不含模型，首次在设置里下载",
+  "zip": "https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v20261109/NewsDubbingStudio-20261109.zip",
   "mirrors": [
-    "https://ghproxy.net/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v20261231-test/NewsDubbingStudio-20261231-test.zip",
-    "https://gh-proxy.com/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v20261231-test/NewsDubbingStudio-20261231-test.zip"
+    "https://ghproxy.net/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v20261109/NewsDubbingStudio-20261109.zip",
+    "https://gh-proxy.com/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v20261109/NewsDubbingStudio-20261109.zip"
   ],
-  "sha256": "DAC5714BAE770CB0D910F53B4978C28B3B297FA4135F268C7A075AF15193B67C",
-  "size": 253023594
+  "sha256": "A0A3217237C34AE39653873C5C019D32390591DCE44E20705CA9A617A16F2032",
+  "size": 253164504
 }
