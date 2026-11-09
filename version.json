@@ -1,11 +1,11 @@
 {
   "version": "20261109",
-  "notes": "应用内一键更新（含本次可靠性修复）+ 一键下载所有模型；安装包不含模型，首次在设置里下载",
+  "notes": "修复 Parakeet 模型下载 308 重定向失败；修复安装路径含中文时配音进程崩溃（espeak-ng 无法读取非 ASCII 数据目录）",
   "zip": "https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v20261109/NewsDubbingStudio-20261109.zip",
   "mirrors": [
     "https://ghproxy.net/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v20261109/NewsDubbingStudio-20261109.zip",
     "https://gh-proxy.com/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v20261109/NewsDubbingStudio-20261109.zip"
   ],
-  "sha256": "6448A08AF9A563A2A9A48186CFB56210785DD085910607A2C606F8D4760A04DE",
-  "size": 253164960
+  "sha256": "10F84687F812FBA596FB8216694D50A676A383CFF8743982A0039E53E5EBDFC8",
+  "size": 253168125
 }
