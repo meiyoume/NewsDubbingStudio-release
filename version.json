@@ -1,11 +1,11 @@
 {
-  "version": "2026110902",
-  "notes": "版本号改为「日期+当天序号」后第一次增量更新：更新面板会显示「2026110902 · 11-09 第 2 版」。只替换程序文件，项目、配置、模型、已下载内容都不动。",
-  "zip": "https://ghproxy.net/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026110902/NewsDubbingStudio-update-2026110902.zip",
+  "version": "2026110903",
+  "notes": "内置本机模型服务升级到 WorkBuddy 2.0.6：新增文本/媒体号池分离（wb_pool_scope）、subbridge、entitlements 等 5 个模块，模型目录扩到 21 个（新增 gpt-6-astra、gpt-6.1-sol 等）。你的账号、用量、设置都在数据目录里，升级不碰。另外修复：从网上下载的安装包解压后窗口起不来（Failed to resolve Python.Runtime.Loader.Initialize，.NET 拒绝加载带 Internet 标记的 pythonnet 运行时），现在启动时自动解除锁定。只替换程序文件；项目、配置、模型、已下载内容都不动。",
+  "zip": "https://ghproxy.net/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026110903/NewsDubbingStudio-update-2026110903.zip",
   "mirrors": [
-    "https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026110902/NewsDubbingStudio-update-2026110902.zip",
-    "https://gh-proxy.com/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026110902/NewsDubbingStudio-update-2026110902.zip"
+    "https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026110903/NewsDubbingStudio-update-2026110903.zip",
+    "https://gh-proxy.com/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026110903/NewsDubbingStudio-update-2026110903.zip"
   ],
-  "sha256": "3CD97F82E2D40932D4234FA9C805441D85D5E9C2B0B7D2A261EA6B18BB6EE62E",
-  "size": 22798901
+  "sha256": "CD690CDA36796DDC0C772455C76D5144100F4EEE23508ADBCB516089DA7D0CCA",
+  "size": 41666498
 }
