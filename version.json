@@ -1,11 +1,11 @@
 {
-  "version": "2026110904",
-  "notes": "修复「从网上下载的安装包解压后窗口起不来」：0903 只解除了 pythonnet 目录的 Internet 标记，漏了 pywebview 自己加载的 Microsoft.Web.WebView2.Core.dll，报 0x80131515「尝试从一个网络位置加载程序集」。现在启动时扫描 _internal 下全部 dll/exe/pyd（实测 337 个）统一解除，窗口能正常打开。本包是累积更新，也包含 0903 的 WorkBuddy 反代 2.0.6 升级（21 个模型）。只替换程序文件；项目、配置、模型、已下载内容都不动。",
-  "zip": "https://ghproxy.net/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026110904/NewsDubbingStudio-update-2026110904.zip",
+  "version": "2026110905",
+  "notes": "更新源改为内置：装好就能收到新版本，不用再填地址。主用国内 ghproxy 加速线路，连不上自动切 gh-proxy.com，再退到 GitHub 直连，设置页也不再显示那一长串代理地址（留空即用内置，填 off 可关闭）。只替换程序文件；项目、配置、模型、已下载内容都不动。",
+  "zip": "https://ghproxy.net/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026110905/NewsDubbingStudio-update-2026110905.zip",
   "mirrors": [
-    "https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026110904/NewsDubbingStudio-update-2026110904.zip",
-    "https://gh-proxy.com/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026110904/NewsDubbingStudio-update-2026110904.zip"
+    "https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026110905/NewsDubbingStudio-update-2026110905.zip",
+    "https://gh-proxy.com/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026110905/NewsDubbingStudio-update-2026110905.zip"
   ],
-  "sha256": "2C2F71D559F2265A6035D54AD5E27FEE03C88F6B738BEFA9162AC2B48260F989",
-  "size": 41663935
+  "sha256": "62B3C179182850FB02C1D306E04B674A1649A872D0836B07471D8931563AA56B",
+  "size": 41043386
 }
