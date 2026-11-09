@@ -1,11 +1,11 @@
 {
   "version": "20261110",
-  "notes": "修复：在处理记录里关闭「记录详情」时，不再把整个处理记录窗口一起关掉。这是增量更新包，只替换 4 个程序文件，项目、配置、模型都不动。",
+  "notes": "修复：启动端口优先固定为 10495，重启后主题、改写通道、上次标签等界面设置不再丢失（被占用时才自动换端口）。修复：在处理记录里关闭「记录详情」时，不再把整个处理记录窗口一起关掉。这是增量更新包，只替换程序文件，项目、配置、模型都不动。",
   "zip": "https://ghproxy.net/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v20261110/NewsDubbingStudio-update-20261110-from-20261109.zip",
   "mirrors": [
     "https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v20261110/NewsDubbingStudio-update-20261110-from-20261109.zip",
     "https://gh-proxy.com/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v20261110/NewsDubbingStudio-update-20261110-from-20261109.zip"
   ],
-  "sha256": "CC5D564D1AD77CE331C87A91B3E1347EE4242BA29278AAE1AF1AE0683F27EE2D",
-  "size": 22764901
+  "sha256": "29175CD9D804AE63A9584D30803FBC3E1C12847042C953293B2E7196361E8059",
+  "size": 22764627
 }
