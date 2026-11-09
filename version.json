@@ -1,11 +1,11 @@
 {
-  "version": "2026110901",
-  "notes": "版本号改为「日期+当天序号」：2026110901、2026110902…，同一天多次发版一目了然。修复：打包机时钟超前时（之前误发过 20261110 / 20261111）那个版本能正常更新回真实日期版本，不会把自己锁死。这是增量更新包，只替换程序文件。",
-  "zip": "https://ghproxy.net/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026110901/NewsDubbingStudio-update-2026110901.zip",
+  "version": "2026110902",
+  "notes": "版本号改为「日期+当天序号」后第一次增量更新：更新面板会显示「2026110902 · 11-09 第 2 版」。只替换程序文件，项目、配置、模型、已下载内容都不动。",
+  "zip": "https://ghproxy.net/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026110902/NewsDubbingStudio-update-2026110902.zip",
   "mirrors": [
-    "https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026110901/NewsDubbingStudio-update-2026110901.zip",
-    "https://gh-proxy.com/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026110901/NewsDubbingStudio-update-2026110901.zip"
+    "https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026110902/NewsDubbingStudio-update-2026110902.zip",
+    "https://gh-proxy.com/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026110902/NewsDubbingStudio-update-2026110902.zip"
   ],
-  "sha256": "93EA68485164848EEDE18F876CB8C9103E0B678E6C68AFE5F2EC6C1B60ABE210",
-  "size": 22797651
+  "sha256": "3CD97F82E2D40932D4234FA9C805441D85D5E9C2B0B7D2A261EA6B18BB6EE62E",
+  "size": 22798901
 }
