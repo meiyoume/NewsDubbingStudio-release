@@ -1,11 +1,11 @@
 {
-  "version": "20261110",
-  "notes": "修复：启动端口优先固定为 10495，重启后主题、改写通道、上次标签等界面设置不再丢失（被占用时才自动换端口）。修复：在处理记录里关闭「记录详情」时，不再把整个处理记录窗口一起关掉。这是增量更新包，只替换程序文件，项目、配置、模型都不动。",
-  "zip": "https://ghproxy.net/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v20261110/NewsDubbingStudio-update-20261110-from-20261109.zip",
+  "version": "20261111",
+  "notes": "新增：设置里的「思考强度」可选 自动/关闭/minimal/low/medium/high/xhigh/max，按所选模型实际支持的档位列出，改完立即生效、重启保留。修复：「关闭思考」以前只是不传参数，本机反代会补默认档，现在显式发 reasoning_effort=none；改写稿记录本次档位。这是增量更新包，只替换程序文件。",
+  "zip": "https://ghproxy.net/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v20261111/NewsDubbingStudio-update-20261111-from-20261110.zip",
   "mirrors": [
-    "https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v20261110/NewsDubbingStudio-update-20261110-from-20261109.zip",
-    "https://gh-proxy.com/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v20261110/NewsDubbingStudio-update-20261110-from-20261109.zip"
+    "https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v20261111/NewsDubbingStudio-update-20261111-from-20261110.zip",
+    "https://gh-proxy.com/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v20261111/NewsDubbingStudio-update-20261111-from-20261110.zip"
   ],
-  "sha256": "29175CD9D804AE63A9584D30803FBC3E1C12847042C953293B2E7196361E8059",
-  "size": 22764627
+  "sha256": "410C104831DD4950FCF44DDB496D466EE3396C15E72E6E59C290E953416AEFD3",
+  "size": 22799398
 }
