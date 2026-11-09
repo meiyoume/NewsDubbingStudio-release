@@ -1,11 +1,11 @@
 {
-  "version": "20261111",
-  "notes": "新增：设置里的「思考强度」可选 自动/关闭/minimal/low/medium/high/xhigh/max，按所选模型实际支持的档位列出，改完立即生效、重启保留。修复：「关闭思考」以前只是不传参数，本机反代会补默认档，现在显式发 reasoning_effort=none；改写稿记录本次档位。这是增量更新包，只替换程序文件。",
-  "zip": "https://ghproxy.net/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v20261111/NewsDubbingStudio-update-20261111-from-20261110.zip",
+  "version": "2026110901",
+  "notes": "版本号改为「日期+当天序号」：2026110901、2026110902…，同一天多次发版一目了然。修复：打包机时钟超前时（之前误发过 20261110 / 20261111）那个版本能正常更新回真实日期版本，不会把自己锁死。这是增量更新包，只替换程序文件。",
+  "zip": "https://ghproxy.net/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026110901/NewsDubbingStudio-update-2026110901.zip",
   "mirrors": [
-    "https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v20261111/NewsDubbingStudio-update-20261111-from-20261110.zip",
-    "https://gh-proxy.com/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v20261111/NewsDubbingStudio-update-20261111-from-20261110.zip"
+    "https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026110901/NewsDubbingStudio-update-2026110901.zip",
+    "https://gh-proxy.com/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026110901/NewsDubbingStudio-update-2026110901.zip"
   ],
-  "sha256": "410C104831DD4950FCF44DDB496D466EE3396C15E72E6E59C290E953416AEFD3",
-  "size": 22799398
+  "sha256": "93EA68485164848EEDE18F876CB8C9103E0B678E6C68AFE5F2EC6C1B60ABE210",
+  "size": 22797651
 }
