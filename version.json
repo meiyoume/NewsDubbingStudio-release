@@ -1,11 +1,11 @@
 {
-  "version": "2026110906",
-  "notes": "修掉更新后安装目录里残留的 update_staging 空文件夹：重启的新实例不再把暂存目录当工作目录占着，启动时发现上次残留会在几秒内补删干净。更新源仍是内置的（ghproxy 主用，连不上自动换 gh-proxy / GitHub 直连）。只替换程序文件；项目、配置、模型、已下载内容都不动。",
-  "zip": "https://ghproxy.net/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026110906/NewsDubbingStudio-update-2026110906.zip",
+  "version": "2026110907",
+  "notes": "修掉两个卡死人的问题：① 一条做到一半暂停后，后面排队的第一条永远不开始（暂停不再占着处理队列，队列会继续跑下一条）；② 正在处理和暂停中的条目删不掉（现在删除会先停掉后台任务、等它退出再删目录，合成成片途中仍会提示等它结束）。更新源仍是内置的，只替换程序文件；项目、配置、模型、已下载内容都不动。",
+  "zip": "https://ghproxy.net/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026110907/NewsDubbingStudio-update-2026110907.zip",
   "mirrors": [
-    "https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026110906/NewsDubbingStudio-update-2026110906.zip",
-    "https://gh-proxy.com/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026110906/NewsDubbingStudio-update-2026110906.zip"
+    "https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026110907/NewsDubbingStudio-update-2026110907.zip",
+    "https://gh-proxy.com/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026110907/NewsDubbingStudio-update-2026110907.zip"
   ],
-  "sha256": "8F77E3C3974AC92357B47248DE5DD7F92369C1157E9F4CA0BCC695F2590FFA82",
-  "size": 41043072
+  "sha256": "9F1DC130A6282C98D90DA8C658C7F5D9BA404ABF9E31C5DCEE5C9C40B2A8E69F",
+  "size": 41044092
 }
