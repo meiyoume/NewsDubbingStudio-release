@@ -1,11 +1,11 @@
 {
-  "version": "2026110905",
-  "notes": "更新源改为内置：装好就能收到新版本，不用再填地址。主用国内 ghproxy 加速线路，连不上自动切 gh-proxy.com，再退到 GitHub 直连，设置页也不再显示那一长串代理地址（留空即用内置，填 off 可关闭）。只替换程序文件；项目、配置、模型、已下载内容都不动。",
-  "zip": "https://ghproxy.net/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026110905/NewsDubbingStudio-update-2026110905.zip",
+  "version": "2026110906",
+  "notes": "修掉更新后安装目录里残留的 update_staging 空文件夹：重启的新实例不再把暂存目录当工作目录占着，启动时发现上次残留会在几秒内补删干净。更新源仍是内置的（ghproxy 主用，连不上自动换 gh-proxy / GitHub 直连）。只替换程序文件；项目、配置、模型、已下载内容都不动。",
+  "zip": "https://ghproxy.net/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026110906/NewsDubbingStudio-update-2026110906.zip",
   "mirrors": [
-    "https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026110905/NewsDubbingStudio-update-2026110905.zip",
-    "https://gh-proxy.com/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026110905/NewsDubbingStudio-update-2026110905.zip"
+    "https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026110906/NewsDubbingStudio-update-2026110906.zip",
+    "https://gh-proxy.com/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026110906/NewsDubbingStudio-update-2026110906.zip"
   ],
-  "sha256": "62B3C179182850FB02C1D306E04B674A1649A872D0836B07471D8931563AA56B",
-  "size": 41043386
+  "sha256": "8F77E3C3974AC92357B47248DE5DD7F92369C1157E9F4CA0BCC695F2590FFA82",
+  "size": 41043072
 }
