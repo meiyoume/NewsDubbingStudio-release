@@ -1,11 +1,11 @@
 {
-  "version": "2026111005",
-  "notes": "① Kokoro 54 个官方音色全部开放：英语 28（美式 20 / 英式 8）+ 中文 8 + 日语 5 + 西语 3 + 法语 1 + 印地语 4 + 意语 2 + 葡语 3，全部来自 Kokoro-82M v1.0，不换模型。② 音色名改成客观描述并按语言分组；界面「54 个英文音色」改为「54 个多语言音色」。③ 中文拼音→IPA、日语 OpenJTalk；修复装在中文路径时日语报 Failed to initalize Mecab（首次日语自动把词典复制到 C:\\Users\\Public 英文路径）。④ 修复法语/葡萄牙语试听误用英文试听文本的问题，并重新生成这 4 个试听。⑤ 包含 Edge-TTS 超时/代理修复与队列预下载。",
-  "zip": "https://ghproxy.net/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026111005/NewsDubbingStudio-update-2026111005-from-2026110907.zip",
+  "version": "2026111026",
+  "notes": "① Kokoro 改用 fp32 模型，同一台机器配音约快 3 倍。② 新增可选 GPU 加速：NVIDIA 显卡可在「设置 → 识别与配音」下载约 1.6GB 运行时，Kokoro 再快 3–4 倍，不用可随时删除。③ 内置 WorkBuddy 反代更新到 wb-proxy 2.0.8，修复计费头导致的 400/11128 与空 system 消息 400。④ 改写 2 路并发，分批带上下文且不会把上下文抄进正文。⑤ 改写稿可导出 txt；音频页可直接粘贴视频链接合成。⑥ 修复最大化只铺 2/3 屏、纯音频项目合成入口等问题。",
+  "zip": "https://ghproxy.net/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026111026/NewsDubbingStudio-update-2026111026-from-2026111005.zip",
   "mirrors": [
-    "https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026111005/NewsDubbingStudio-update-2026111005-from-2026110907.zip",
-    "https://gh-proxy.com/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026111005/NewsDubbingStudio-update-2026111005-from-2026110907.zip"
+    "https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026111026/NewsDubbingStudio-update-2026111026-from-2026111005.zip",
+    "https://gh-proxy.com/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026111026/NewsDubbingStudio-update-2026111026-from-2026111005.zip"
   ],
-  "sha256": "F6A900045DAE42A5F329EBFE7856C75AFB2B4B8C8817CC61E7147FAEF51D4007",
-  "size": 72524351
+  "sha256": "2E8297606789FAC1905BBD176577E503F901FF46B0E18AE424407E54C639EBB0",
+  "size": 25840328
 }
