@@ -1,11 +1,11 @@
 {
-  "version": "2026111108",
-  "notes": "① 音色工作台：可拾取原片主播音色、套用 Kokoro 语气预设、把主音色与副音色按比例混合，试听后一键应用到版本；版本卡直接显示「混合 X 35%」。\n② 修复 YouTube 高码率档（只给 m3u8 清单）被当成 mp4 下载、合并时报 moov atom not found 的问题，下载失败会自动改走 yt-dlp。\n③ 批量任务支持两条并行：按 CPU 线程数自动决定（12 线程及以上两条，8 线程及以下一条），单条失败不影响另一条；配音模型是单会话，两条的合成调用会自动排队。\n④ 进度卡标题跟随当前阶段（点配音补跑改写时显示「改写」）；拾取音色会关闭混合音色并在提示里说明；新建/设置/处理记录弹窗不再叠层；视频列表轮询数据没变时不再整块重绘。",
-  "zip": "https://ghproxy.net/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026111108/NewsDubbingStudio-2026111108.zip",
+  "version": "2026111301",
+  "notes": "① 内置反代更新到 WorkBuddy wb-proxy 2.1.1（上游 11-12 版）：账号池、调度、账户、设置与代理主体共 7 个模块更新。\n② Qoder 桥更新到 v0.6.3-fp1。\n③ 其余功能与 2026111108 相同：音色工作台、YouTube 高码率档下载修复、改写 2 路并发、批量 2 条并行。\n本次一键更新为完整包（290 MB），projects/models/config/gpu_runtime 都会保留。",
+  "zip": "https://ghproxy.net/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026111301/NewsDubbingStudio-2026111301.zip",
   "mirrors": [
-    "https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026111108/NewsDubbingStudio-2026111108.zip",
-    "https://gh-proxy.com/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026111108/NewsDubbingStudio-2026111108.zip"
+    "https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026111301/NewsDubbingStudio-2026111301.zip",
+    "https://gh-proxy.com/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026111301/NewsDubbingStudio-2026111301.zip"
   ],
-  "sha256": "07FE7F0EFA041D2BC70B8B1E138B78ACAE54639DE2463A9EBF1CAB3AD5F62EB1",
-  "size": 302609137
+  "sha256": "BADD9F0404A6F0B2D068494F4ABF0349CE37F98C0496E071AD13D4D138081FBF",
+  "size": 303979426
 }
