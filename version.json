@@ -1,11 +1,11 @@
 {
-  "version": "2026111301",
-  "notes": "① 内置反代更新到 WorkBuddy wb-proxy 2.1.1（上游 11-12 版）：账号池、调度、账户、设置与代理主体共 7 个模块更新。\n② Qoder 桥更新到 v0.6.3-fp1。\n③ 其余功能与 2026111108 相同：音色工作台、YouTube 高码率档下载修复、改写 2 路并发、批量 2 条并行。\n本次一键更新为完整包（290 MB），projects/models/config/gpu_runtime 都会保留。",
-  "zip": "https://ghproxy.net/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026111301/NewsDubbingStudio-2026111301.zip",
+  "version": "2026111302",
+  "notes": "① 内置反代更新到 WorkBuddy wb-proxy 2.1.3（上游 11-13 版）：新增 wb_time 模块，代理主体、任务队列、账户池、设置、活动日志、代码工件等 10 个模块更新。\n② Qoder 桥保持 v0.6.3-fp1。\n③ 其余功能与 2026111301 相同：音色工作台、YouTube 高码率档下载修复、改写 2 路并发、批量 2 条并行。\n本次一键更新为完整包（290 MB），projects/models/config/gpu_runtime 都会保留。",
+  "zip": "https://ghproxy.net/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026111302/NewsDubbingStudio-2026111302.zip",
   "mirrors": [
-    "https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026111301/NewsDubbingStudio-2026111301.zip",
-    "https://gh-proxy.com/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026111301/NewsDubbingStudio-2026111301.zip"
+    "https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026111302/NewsDubbingStudio-2026111302.zip",
+    "https://gh-proxy.com/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026111302/NewsDubbingStudio-2026111302.zip"
   ],
-  "sha256": "BADD9F0404A6F0B2D068494F4ABF0349CE37F98C0496E071AD13D4D138081FBF",
-  "size": 303979426
+  "sha256": "FC3479268EF587C833EE3963A376426D4371E2A39C3F303B8FC129858C0B6A3F",
+  "size": 304097905
 }
