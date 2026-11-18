@@ -1,11 +1,11 @@
 {
-  "version": "2026111411",
-  "notes": "2026111411 · 11-15 第 1 版\n\n- 运行时升级到 Python 3.12，GPU 运行时同步为 cp312。\n- 内置反代升级到 wb-proxy 2.2.0，Qoder 0.6.3-fp1。\n- 自动语言检测：中文/日文/韩文自动走 Whisper，英文及欧洲语言继续用 Parakeet。\n- 修复试听组合被正式配音/切换项目取消后按钮卡在“生成中…”的问题。\n- 全功能真实用户路径回归：导入、识别、改写、配音、合成导出、批量、设置、删除。",
-  "zip": "https://ghproxy.net/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026111411/NewsDubbingStudio-2026111411.zip",
+  "version": "2026111904",
+  "notes": "2026111904 · 11-19 第 4 版\n\n- 新增 Breeze TTS 2 本地显卡引擎（可选下载）：54 个描述音色、7 种语气，下载前会检测显卡，没有独立显卡 / 显存不足 4 GB / 缺 Vulkan 时锁死下载。\n- 时间轴配音并发预热：43 段新闻实测 856.7 秒 → 396.1 秒（约 2.2 倍）。\n- 修复接缝抢话：上一段保留原音、下一段重配且零间隙时，按原音真正的停顿顺移切入。\n- 不同音色音量差 18 dB 已做整段归一；去掉 1%~5% 的无效加速提示。\n- 全量包 296 MB；另有从 2026111411 升级的增量包 33 MB。",
+  "zip": "https://ghproxy.net/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026111904/NewsDubbingStudio-2026111904.zip",
   "mirrors": [
-    "https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026111411/NewsDubbingStudio-2026111411.zip",
-    "https://gh-proxy.com/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026111411/NewsDubbingStudio-2026111411.zip"
+    "https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026111904/NewsDubbingStudio-2026111904.zip",
+    "https://gh-proxy.com/https://github.com/meiyoume/NewsDubbingStudio-release/releases/download/v2026111904/NewsDubbingStudio-2026111904.zip"
   ],
-  "sha256": "D2E4C35BA63362D7341487A5781F132E72AB3C097CC06810B6C5355465F8895A",
-  "size": 310325506
+  "sha256": "A91C874711A43C31302468DC52E02A269F7107AD8D0D9590989A62F64487DB7E",
+  "size": 310376994
 }
